@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<title>Family Members</title>
+<meta name="description" content="Family Members">
+<meta name="keywords" content="html coderhouse practice">
+</head>
+<body>
+{% for member in family %}
+    <ul>Member: {{ member.name }}
+        DOB: {{ member.dob }}
+        ID: {{ member.member_id }}
+    </ul>
+{% endfor %}
+</body>
+</html>
